@@ -1,0 +1,17 @@
+.idropdown-container {
+    position: relative;
+  }
+  .idropdown {
+    position: absolute;
+    /* top: 34px; */
+    left: 30px;
+    z-index: 100;
+    background-color: #bcbcbd;
+    opacity: 1;
+    display: none;
+  }
+  
+  .show {
+    display: block !important;
+    transition: 200ms;
+  }

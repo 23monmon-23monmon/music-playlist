@@ -1,0 +1,116 @@
+.app {
+  display: flex;
+  font-family: Arial, sans-serif;
+}
+
+.sidebar {
+  width: 250px;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+}
+
+.user-info {
+  margin-left: 10px;
+}
+
+.premium-tag {
+  font-size: 12px;
+  color: #888;
+}
+
+.navigation {
+  margin-top: 20px;
+}
+
+.navigation a {
+  display: block;
+  padding: 10px 0;
+  color: #333;
+  text-decoration: none;
+}
+
+.navigation a.active {
+  font-weight: bold;
+}
+
+.your-playlists {
+  margin-top: 20px;
+}
+
+.your-playlists ul {
+  list-style: none;
+  padding: 0;
+}
+
+.your-playlists li {
+  padding: 5px 0;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-item {
+  width: 48%;
+  padding: 20px;
+  color: white;
+  border-radius: 10px;
+}
+
+.header-item:first-child {
+  background: linear-gradient(135deg, #f64f59, #c471ed, #12c2e9);
+}
+
+.header-item:last-child {
+  background: linear-gradient(135deg, #00d2ff, #3a7bd5);
+}
+
+.content {
+  display: flex;
+  margin-top: 20px;
+}
+
+.playlist {
+  width: 50%;
+}
+
+.playlist ul {
+  list-style: none;
+  padding: 0;
+}
+
+.playlist li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.recommended {
+  width: 50%;
+  padding-left: 20px;
+}
+
+.recommended-cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  background-color: #eee;
+  padding: 20px;
+  width: 30%;
+  border-radius: 10px;
+  text-align: center;
+}
